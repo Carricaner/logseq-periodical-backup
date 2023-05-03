@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello World" > record.txt
+echo "+===++Hello world++===+" >> /usr/src/app/log.txt 2>&1

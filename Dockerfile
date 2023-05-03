@@ -1,25 +1,25 @@
 FROM ubuntu:latest
 
-# Install Git
-RUN apt-get update && apt-get install -y git
-
-# Install Cron
-RUN apt-get install -y cron
-
-# Install Nano
-RUN apt-get install -y nano
-
 # Set the working directory
 WORKDIR /usr/src/app
 
-# Copy the script to the container
-COPY ${MOVE_PATH}/. .
+# Copy the files
+COPY . .
 
-# Add a cron job to run the script every 15 seconds
-RUN echo "*/15 * * * * /bin/bash /usr/src/app/schedule.sh" > /etc/cron.d/schedule-cron
+# Copy hello-cron file to the cron.d directory
+COPY task-cron /etc/cron.d/task-cron
 
-# Give execution permission to the script
-RUN chmod +x /usr/src/app/schedule.sh
+# Installation
+RUN apt-get update && apt-get -y install cron
+ 
+# Give execution rights on the cron job
+RUN chmod 0644 /etc/cron.d/task-cron
 
-# Start Cron when the container starts
-CMD cron -f
+# Apply cron job
+RUN crontab /etc/cron.d/task-cron
+ 
+# Create the log file to be able to run tail
+RUN touch /var/log/cron.log
+ 
+# Run the command on container startup
+CMD cron && tail -f /var/log/cron.log
