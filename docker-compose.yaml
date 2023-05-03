@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    build: 
+      context: .
+      args:
+        - CONTAINER_WORKDIR=${CONTAINER_WORKDIR}
+        - CONTAINER_CRON_D_DIR=${CONTAINER_CRON_D_DIR}
+    env_file:
+      - .env

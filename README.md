@@ -1,3 +1,4 @@
+# WIP
 ### Steps
 1. Build the image with the `Dockerfile` by running 
 ```
@@ -13,4 +14,9 @@ docker run --name logseq-backup-container -d logseq_backup
 - If you want to use bind mount, try below:
 ```
 docker run --name logseq-backup-container -d -v $(pwd):/usr/src/app logseq_backup
+```
+
+
+```
+docker-compose build --no-cache
 ```
