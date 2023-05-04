@@ -19,6 +19,9 @@ RUN apt-get install -y openssh-server
 # Copy the files
 COPY . .
 COPY task-cron $CONTAINER_CRON_D_DIR/task-cron
+
+# Create a log file
+RUN touch $CONTAINER_WORKDIR/log.txt
  
 # Give execution rights on the cron job
 RUN chmod 0644 $CONTAINER_CRON_D_DIR/task-cron
