@@ -1,0 +1,32 @@
+
+Var: 
+Var:  ++_
+Var:  ++_
+Var: /root ++_
+Var: /root ++_
+Var:  ++_
+Var:  ++_
+Var:  ++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var:  ===++_
+Var: /usr/src/app+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++
+Var: /usr/src/app=-=-+++

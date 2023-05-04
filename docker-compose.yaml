@@ -8,3 +8,5 @@ services:
         - CONTAINER_CRON_D_DIR=${CONTAINER_CRON_D_DIR}
     env_file:
       - .env
+    volumes:
+      - ${PWD}:${CONTAINER_WORKDIR}

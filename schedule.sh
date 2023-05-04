@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "+===++Hello world++===+" >> /usr/src/app/log.txt 2>&1
+#Source the env file
+. "/usr/src/app/.env"
+
+echo "Var: ${CONTAINER_WORKDIR}=-=-+++" >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
