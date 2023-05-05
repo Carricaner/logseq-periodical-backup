@@ -12,9 +12,7 @@ WORKDIR $CONTAINER_WORKDIR
 
 # Installation
 RUN apt-get update 
-RUN apt-get install -y cron
-RUN apt-get install -y git
-RUN apt-get install -y openssh-server
+RUN apt-get install -y cron git openssh-server
 
 # Copy the files
 COPY . .
