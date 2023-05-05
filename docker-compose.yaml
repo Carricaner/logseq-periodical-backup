@@ -10,3 +10,4 @@ services:
       - .env
     volumes:
       - ${PWD}:${CONTAINER_WORKDIR}
+      - ${LOCAL_SSH_DIR}:${CONTAINER_SSH_DIR}
