@@ -103,3 +103,10 @@ scheduler
 occa8520@gmail.com
 origin2
 Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_18:02:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
