@@ -3,7 +3,6 @@ FROM ubuntu:latest
 # Define arguments
 ARG CONTAINER_WORKDIR
 ARG CONTAINER_CRON_D_DIR
-ARG CONTAINER_SSH_DIR
 
 # Set env
 ENV CONTAINER_CRON_D_DIR $CONTAINER_CRON_D_DIR
@@ -13,7 +12,8 @@ WORKDIR $CONTAINER_WORKDIR
 
 # Installation
 RUN apt-get update 
-RUN apt-get install -y cron git openssh-server
+RUN apt-get install -y cron git
+# openssh-server
 
 # Copy the files
 COPY . .
