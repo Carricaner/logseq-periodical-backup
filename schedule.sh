@@ -30,10 +30,4 @@ fi
 git add .
 git reset -- .env
 git commit -m "Scheduled build: ${FORMATTED_DATE}"
-
-# if [ -z `git push ${GIT_REMOTE_ALIAS} test-git` ]
-# then 
-#     echo "Successfully pushed to remote" >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
-# else
-#     echo "Error pushing to remote" >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
-# fi
+git push ${GIT_REMOTE_ALIAS} test-git
