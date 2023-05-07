@@ -1,169 +1,91 @@
-FORMATTED_DATE: 23-05-07_08:56:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_08:57:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_08:58:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_08:59:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_09:00:02
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_09:01:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_09:02:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_09:03:01
-Email: you@example.com & User: 
-FORMATTED_DATE: 23-05-07_09:04:01
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:04:18
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:04:20
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:04:21
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:04:23
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:05:01
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:05:37
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:05:39
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:05:39
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:05:40
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:07:08
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:07:09
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:07:10
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:08:01
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:08:29
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:08:30
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:08:31
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:09:01
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-Email:  & User: 
-FORMATTED_DATE: 23-05-07_09:42:00
-FORMATTED_DATE: 23-05-07_09:42:01
-FORMATTED_DATE: 23-05-07_09:42:31
-FORMATTED_DATE: 23-05-07_09:49:28
-FORMATTED_DATE: 23-05-07_09:50:01
-FORMATTED_DATE: 23-05-07_09:51:01
-FORMATTED_DATE: 23-05-07_09:52:01
-FORMATTED_DATE: 23-05-07_09:53:01
-FORMATTED_DATE: 23-05-07_09:54:01
-FORMATTED_DATE: 23-05-07_09:55:01
-FORMATTED_DATE: 23-05-07_09:56:01
-FORMATTED_DATE: 23-05-07_09:57:01
-FORMATTED_DATE: 23-05-07_09:58:01
-FORMATTED_DATE: 23-05-07_09:58:17
-FORMATTED_DATE: 23-05-07_09:59:01
-FORMATTED_DATE: 23-05-07_10:00:01
-FORMATTED_DATE: 23-05-07_10:01:01
-FORMATTED_DATE: 23-05-07_10:02:01
-FORMATTED_DATE: 23-05-07_10:03:01
-FORMATTED_DATE: 23-05-07_10:03:07
-FORMATTED_DATE: 23-05-07_10:04:01
-FORMATTED_DATE: 23-05-07_10:05:02
-FORMATTED_DATE: 23-05-07_10:06:01
-FORMATTED_DATE: 23-05-07_10:07:01
-FORMATTED_DATE: 23-05-07_10:37:22
-FORMATTED_DATE: 23-05-07_10:37:55
-FORMATTED_DATE: 23-05-07_10:38:01
-FORMATTED_DATE: 23-05-07_10:38:06
-FORMATTED_DATE: 23-05-07_10:38:42
-FORMATTED_DATE: 23-05-07_10:38:52
-FORMATTED_DATE: 23-05-07_10:39:01
-FORMATTED_DATE: 23-05-07_10:39:56
-FORMATTED_DATE: 23-05-07_10:40:01
-FORMATTED_DATE: 23-05-07_10:41:01
-FORMATTED_DATE: 23-05-07_10:42:01
-FORMATTED_DATE: 23-05-07_10:42:31
-FORMATTED_DATE: 23-05-07_10:43:01
-FORMATTED_DATE: 23-05-07_15:17:01
-FORMATTED_DATE: 23-05-07_15:18:01
-FORMATTED_DATE: 23-05-07_15:18:31
-FORMATTED_DATE: 23-05-07_15:19:01
-FORMATTED_DATE: 23-05-07_15:20:01
-FORMATTED_DATE: 23-05-07_15:21:01
-FORMATTED_DATE: 23-05-07_15:22:01
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:23:01
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:24:01
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:25:01
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:26:01
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:26:18
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:26:36
-Successfully pushed to remote
-FORMATTED_DATE: 23-05-07_15:27:01
-Successfully pushed to remote
-Successfully pushed to remote
-Successfully pushed to remote
-Successfully pushed to remote
-Successfully pushed to remote
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:43:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:44:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:45:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:46:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:47:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:48:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:49:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:50:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_16:51:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_17:56:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_17:57:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_17:58:01
+scheduler123
+occa8520123@gmail.com
+origin2
+Carricaner
+/usr/src/app
+https://Carricaner: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@github.com/Carricaner/logseq-periodical-backup.git
+23-05-07_17:59:01
+scheduler
+occa8520@gmail.com
+origin2
+Carricaner
