@@ -9,5 +9,4 @@ services:
     env_file:
       - .env
     volumes:
-      - ${PWD}:${CONTAINER_WORKDIR}
       - ${LOCAL_LOGSEQ_DIR}:${CONTAINER_LOGSEQ_DIR}
