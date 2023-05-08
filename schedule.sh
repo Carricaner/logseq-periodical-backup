@@ -25,9 +25,7 @@ fi
 # Update the folder
 if [ "$FOLDER_UPDATE_ENABLED" = true ]
 then
-    echo "Updating the folder..."
-else 
-    echo "Not updating the folder..."
+    cp -r $CONTAINER_LOGSEQ_DIR $CONTAINER_FOLDER_DIR
 fi
 
 # Log

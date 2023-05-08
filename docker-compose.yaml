@@ -10,3 +10,4 @@ services:
       - .env
     volumes:
       - ${LOCAL_LOGSEQ_DIR}:${CONTAINER_LOGSEQ_DIR}
+      - ${LOCAL_FOLDER_DIR}:${CONTAINER_FOLDER_DIR}
