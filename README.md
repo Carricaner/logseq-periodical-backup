@@ -12,7 +12,7 @@ The project aims at backing up Loqseq notes on below places:
 ### Feature I : Back up the note for GitHub
 1. Set the variable `UPDATE_GITHUB_ENABLED` in .env as `true`.
 2. Create your GitHub access token 
-    1. follow the path `Setting -> Developer Settings -> Personal Access Token -> Tokens(classic)` on GitHub page
+    1. follow the path `Setting -> Developer Settings -> Personal Access Token -> Tokens(classic)`
     ![image info](./assets/personal-access-token.png)
     2. Create a new one which is granted with repository accesses.
     3. Paste the generated key to `GITHUB_TOKEN` in .env
