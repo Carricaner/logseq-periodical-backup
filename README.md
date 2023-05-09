@@ -3,7 +3,6 @@
 The project aims at backing up Loqseq notes on below places:
 1. GitHub
 2. Another place in your local computer, like SSD ot hard drive.
----
 
 ## Prerequisites
 ### Basics
