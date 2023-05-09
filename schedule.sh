@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Source the env file
+# Source the env file
 . "/usr/src/app/.env"
 
 # Variables
@@ -29,4 +29,4 @@ then
 fi
 
 # Log
-echo $FORMATTED_DATE >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
+echo "Scheduleler ran at $FORMATTED_DATE." >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
