@@ -21,7 +21,6 @@ The project aims at backing up Loqseq notes on below places:
 ### Feature II :Back up in another local place
 1. Set the variable `FOLDER_UPDATE_ENABLED` in .env as `true`.
 2. keep filling related variables.
----
 
 ## Customization
 * You can fine tune the frequency of backup in `task-cron` following the conventional cron pattern. (Notice: The leftmost unit presents "minute".)
