@@ -16,16 +16,16 @@ RUN apt-get install -y cron git
 
 # Copy the files
 COPY . .
-COPY task-cron $CONTAINER_CRON_D_DIR/task-cron
+COPY task-cron.txt $CONTAINER_CRON_D_DIR/task-cron.txt
 
 # Create a log file
 RUN touch $CONTAINER_WORKDIR/log.txt
  
 # Give execution rights on the cron job
-RUN chmod 0644 $CONTAINER_CRON_D_DIR/task-cron
+RUN chmod 0644 $CONTAINER_CRON_D_DIR/task-cron.txt
 
 # Apply cron job
-RUN crontab $CONTAINER_CRON_D_DIR/task-cron
+RUN crontab $CONTAINER_CRON_D_DIR/task-cron.txt
  
 # Run the command on container startup
 CMD cron && tail -f $CONTAINER_WORKDIR/log.txt
