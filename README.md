@@ -6,7 +6,7 @@ The project aims at backing up Loqseq notes on below places:
 1. GitHub
 2. Another place in your local computer, such like your SSD or hard drive.
 <br>
-<br>
+
 ## Prerequisites
 ### Basics
 * Docker (docker compose)
@@ -20,12 +20,10 @@ The project aims at backing up Loqseq notes on below places:
     2. Create a new one which is granted with repository accesses.
     3. Paste the generated key to `GITHUB_TOKEN` in .env
 3. keep filling related variables.
-<br>
 
 ### Feature II :Back up in another local place
 1. Set the variable `FOLDER_UPDATE_ENABLED` in .env as `true`.
 2. keep filling related variables.
-<br>
 <br>
 
 ## Steps
@@ -39,12 +37,10 @@ The project aims at backing up Loqseq notes on below places:
     docker compose down
     ```
 <br>
-<br>
 
 ## Customization
 * You can fine-tune the frequency of backup in `task-cron.txt` following the conventional cron pattern. (Notice: The leftmost unit presents "minute".)
 * Also, you can add other cronjobs in `task-cron.txt`.
-<br>
 <br>
 
 ## Supplimentory
@@ -56,7 +52,6 @@ The project aims at backing up Loqseq notes on below places:
     ```
     docker image prune -f
     ```
-<br>
 <br>
 
 ## Update Notes
