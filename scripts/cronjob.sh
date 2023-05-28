@@ -2,6 +2,9 @@
 
 # Source the env file
 . "/usr/src/app/.env"
+. "/usr/src/app/scripts/update_github_cron.sh"
+
+greet_user "John"
 
 # Variables
 GITHUB_REMOTE_URL="https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}.git"
