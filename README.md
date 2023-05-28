@@ -1,12 +1,16 @@
 # Logseq Backup Project
 ## Description
+I am a Logseq heavy user because I love the freedom to set up my everything about it.Since I decide to persist them into my GitHub, I came up with an idea of an application which can help me periodically push the whole content into the remote repository, which is the origin of this project.
+<br>
 The project aims at backing up Loqseq notes on below places:
 1. GitHub
-2. Another place in your local computer, like SSD or hard drive.
-
+2. Another place in your local computer, such like your SSD or hard drive.
+<br>
+<br>
 ## Prerequisites
 ### Basics
-* Make sure Docker is available. 
+* Docker (docker compose)
+<br>
 
 ### Feature I : Back up the note for GitHub
 1. Set the variable `UPDATE_GITHUB_ENABLED` in .env as `true`.
@@ -16,13 +20,13 @@ The project aims at backing up Loqseq notes on below places:
     2. Create a new one which is granted with repository accesses.
     3. Paste the generated key to `GITHUB_TOKEN` in .env
 3. keep filling related variables.
+<br>
 
 ### Feature II :Back up in another local place
 1. Set the variable `FOLDER_UPDATE_ENABLED` in .env as `true`.
 2. keep filling related variables.
-
-## Customization
-* You can fine tune the frequency of backup in `task-cron` following the conventional cron pattern. (Notice: The leftmost unit presents "minute".)
+<br>
+<br>
 
 ## Steps
 1. Fill the necessary values in .env.
@@ -34,6 +38,26 @@ The project aims at backing up Loqseq notes on below places:
     ```bash
     docker compose down
     ```
+<br>
+<br>
 
-## Notes
-* Last updated on 2023/05/09
+## Customization
+* You can fine-tune the frequency of backup in `task-cron.txt` following the conventional cron pattern. (Notice: The leftmost unit presents "minute".)
+* Also, you can add other cronjobs in `task-cron.txt`.
+<br>
+<br>
+
+## Supplimentory
+* Go into the running container
+    ```
+    docker exec -it logseq-backup-app-1 bash
+    ```
+* Prune redundant images caused from docker compose build
+    ```
+    docker image prune -f
+    ```
+<br>
+<br>
+
+## Update Notes
+* Last updated on 2023/05/28
