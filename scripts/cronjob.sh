@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
 # Source the env file
 . "/usr/src/app/.env"
 
@@ -7,14 +10,26 @@
 . "/usr/src/app/scripts/functions/update_github_cron.sh"
 . "/usr/src/app/scripts/functions/update_folder_cron.sh"
 
-# Variables
-FORMATTED_DATE=$(date +%y-%m-%dT%H:%M:%S)
+# Function to handle cleanup on script termination
+finished() {
+  # Perform cleanup actions here
+  echo "Script finished!"
+}
 
-# Update the GitHub
-update_github_cron
+# Register the finished function to run on script termination
+trap finished EXIT
 
-# Update the folder
-update_folder_cron
+# main function
+main() {
+    # Update the GitHub
+    update_github
 
-# Log
-echo "Scheduleler ran at $FORMATTED_DATE." >> "${CONTAINER_WORKDIR}/log.txt" 2>&1
+    # Update the folder
+    update_folder
+    
+    # exit 0
+    exit 0
+}
+
+# execute the main function
+main
